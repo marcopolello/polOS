@@ -216,10 +216,10 @@ test.describe("has commands", () => {
   });
 
   test("nslookup", async ({ page }) => {
-    await sendToTerminal({ page }, "nslookup dustinbrett.com");
+    await sendToTerminal({ page }, "nslookup https://marcopolello.github.io/");
     await terminalHasText({ page }, "Server:  cloudflare-dns.com");
     await terminalHasText({ page }, "Address:  1.1.1.1");
-    await terminalHasText({ page }, "Name:    dustinbrett.com");
+    await terminalHasText({ page }, "Name:    https://marcopolello.github.io/");
   });
 
   test("sheep", async ({ page }) => {

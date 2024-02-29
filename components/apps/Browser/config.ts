@@ -18,7 +18,7 @@ export const bookmarks: Bookmark[] = [
   {
     icon: FAVICON_BASE_PATH,
     name: "polOS",
-    url: "https://dustinbrett.com/",
+    url: "https://marcopolello.github.io/",
   },
   {
     icon: "/System/Icons/Favicons/dir.webp",
